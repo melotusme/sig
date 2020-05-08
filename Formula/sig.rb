@@ -7,6 +7,7 @@ class Sig < Formula
 
   def install
     # 安装源代码
-    bin.install_symlink Dir["bin/*"]
+    bin.install Dir["bin/*"]
+    bin
   end
 end
